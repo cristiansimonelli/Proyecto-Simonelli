@@ -1,0 +1,109 @@
+/* font-family : 'Open Sans', sans-serif; */
+
+/* Estilo general para toda la página */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* cabecera */
+header {
+  background-color: #a5a5a5;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+
+}
+
+header h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 100px;
+  display: inline-block;
+  position: relative;
+  bottom: 35px;
+  margin-left: 10px;
+}
+
+/* barra de navegación */
+
+nav {
+  background-color: #cccccc;
+  margin-bottom: 0px;
+}
+
+nav ul {
+  /* sacarle el punto inicial de la lista */
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul li a {
+  color: #7f7f7f;
+  /* elimina la linea del hipervinculo */
+  text-decoration: none;
+  /* me permite controlar los margenes con la función padding */
+  display: block;
+  padding: 3px 6px;
+}
+
+/* el elemento del menú reacciona cuando le paso el cursor por arriba */
+nav ul li a:hover {
+  background-color: #f2f2f2;
+}
+
+/* esta clase lo que hace es mantener el color del boton seleccionado en el menú */
+nav ul li a.activo {
+  background-color: #f2f2f2;
+}
+
+footer {
+  background-color: #cccccc;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  padding: 20px;
+}
+
+/* esta clase mantiene a todo el contenido de la página en un ancho determinado */
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+main {
+  background-color: #f2f2f2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+
+}
+
+h2 {
+  color: #595959;
+  font-weight: 500;
+  text-align: center;
+}
+
+h3 {
+  color: #595959;
+  font-weight: 500;
+  text-align: center;
+}
+
+p {
+  color: #595959;
+  text-align: justify;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+hr {
+  width: 20%;
+  color: #aaa7a7;
+}
